@@ -1,0 +1,50 @@
+## 1. Identificação do Projeto
+
+**Nome do Projeto:** Risco Relativo - Banco Caja
+
+**Data de Início:** 15 - 05 - 2024
+
+**Data de Término:** 14 - 06 - 2024
+
+**Equipe do Projeto:** Bruna Santos
+
+## 2. Objetivos
+
+- Avaliar o risco relativo para classificar os solicitantes em diferentes categorias de risco com base na probabilidade de inadimplência.
+- Desenvolver um score de crédito a partir da análise de dados.
+
+## 3. Metodologia
+
+**Ferramentas e Tecnologias:**
+
+- Ferramenta de Análise: Python e Excel
+- Banco de Dados: SQL
+- Ferramentas de Visualização: Looker
+
+## 4. Dados
+
+**Descrição dos Dados:**
+
+- **Fontes de Dados:** Disponibilizado pelo cliente.
+- **Formato dos Dados:** CSV
+- **Volume de Dados:** 36 mil registros.
+
+## 5. Processamento e Análises
+
+- **Processo de Limpeza:** Os dados foram analisados e limpos para atender às necessidades do projeto.
+- Após a limpeza, foram criadas novas variáveis para auxiliar na consecução dos objetivos, como quantidade de empréstimos por pessoa e suas origens.
+- Realizou-se uma análise de Risco Relativo usando a coluna de histórico de inadimplência como base. As informações de perfil foram cruzadas com o histórico de inadimplência, e o resultado do risco relativo foi usado para atribuir uma pontuação aos clientes.
+- A pontuação baseia-se na presença ou ausência das características identificadas no risco relativo. Clientes com características de alto risco recebem uma pontuação mais elevada. O sistema classifica os usuários em uma escala de 0 a 7 pontos, onde uma pontuação a partir de 4 indica alto risco.
+
+## 6. Resultados e Conclusões
+
+A metodologia de risco relativo revelou padrões de comportamento entre os clientes do banco. Apenas 0,57% dos clientes foram identificados como inadimplentes, o que representa um desafio devido à raridade desses casos. Aproximadamente 14,8% dos usuários foram classificados como de alto risco, exigindo uma análise mais detalhada de seus comportamentos. É importante destacar que o score desenvolvido não determina a inadimplência do cliente, mas sim seu perfil de risco. Para análises mais precisas, recomenda-se o uso de modelos estatísticos avançados, como regressão logística.
+
+## 7. Limitações
+
+- O projeto enfrentou várias limitações, incluindo a falta de clareza nas informações sobre o negócio e seus objetivos.
+- A ausência de dados essenciais, como a moeda utilizada pelo banco, valores dos empréstimos anteriores, comprometimento salarial, entre outros, dificultou a manipulação dos dados.
+- A falta de expertise em metodologias estatísticas impactou a modelagem das informações, especialmente durante o desenvolvimento do modelo de machine learning.
+- O projeto é adaptável ao cenário econômico e social atual, sujeito a mudanças e ajustes futuros.
+
+O projeto será retomado para a construção de um modelo de regressão logística, visando uma melhor avaliação do risco de inadimplência dos clientes interessados em produtos de empréstimo.
