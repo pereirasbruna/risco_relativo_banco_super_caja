@@ -1,7 +1,7 @@
 # Risco Relativo - Uma avaliação para o Banco Super Caja.
 
 
-O Banco Caja precisa reavaliar o seu banco atual de clientes para compreender melhor o perfil de pessoas com risco de inadimplência, e assim, auxiliar na tomada de decisão da empresa.
+O Banco Super Caja precisa reavaliar o seu banco atual de clientes para compreender melhor o perfil de pessoas com risco de inadimplência, e assim, auxiliar na tomada de decisão da empresa.
 
 Contexto:
 - a diminuição das taxas de juros no mercado desencadeou um aumento significativo na demanda por solicitações de crédito;
